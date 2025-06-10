@@ -13,3 +13,8 @@
   - 若目标电脑没有 GPU 或使用集成显卡：需将 `paddlepaddle-gpu` 替换为 `paddlepaddle`（CPU 版本），并删除所有 CUDA 相关依赖（如 `cuda-cudart`、`cudnn` 等）。
   - 若 CUDA 版本不匹配（如目标电脑仅支持 CUDA 11.x）：需修改 `environment.yml` 中的 CUDA 版本（如 `cuda-version=11.8`），并更新 `paddlepaddle-gpu` 版本（如 `paddlepaddle-gpu=2.6.2` 对应 CUDA 11.8）。
 
+## 使用方法
+
+运行app.py
+
+![image-20250610174821347](assets/image-20250610174821347.png)
